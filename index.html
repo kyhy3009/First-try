@@ -6,6 +6,41 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/bill.css">
+
+	<style>
+.container {
+  position: relative;
+  width: 100%;
+}
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #ABB5A8;
+}
+
+.container:hover .overlay {
+  opacity: 0.9;
+}
+
+.h2 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+</style>
 </head>
 <body>
 	<!-- header element -->
@@ -18,17 +53,30 @@
 	<main>
 		<h2> About Bill</h2>
 		<p>inter-dimensional demon plotting to destroy Earth. This sadistic floating one-eyed sentient triangle with a top hat has a pair of mortal enemies and they’re… two twelve-year-old twins named Dipper and Mabel. When a portal opens from his dimension to ours, he turns the town of Gravity Falls into a nightmarish hellscape.</p>
-		<img src="img/cipher-main.jpg">
-		<p class="caption">The great evil</p>
-		
-		<!-- Characteristics -->
 
-		<h2>Characteristics</h2>
-		<ol>
+		<div class="container">
+  <img src="img/cipher-main.jpg" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="h2">
+    	<h2 style="color: white">Characteristics</h2>
+    	<ol>
 			<li>Has sadistic humor</li>
 			<li>Loves conjuring into whatever form people fear the most</li>
 			<li>Is a dream demon from a unnamed two-dimensional dimension</li>
 		</ol>
+	</div>
+  </div>
+</div>
+
+
+		
+
+
+
+
+		<p class="caption">The great evil</p>
+		
+		
 		
 		<!--Friends -->
 
@@ -44,6 +92,35 @@
 
 
 		</ul>
+
+<h3>		
+
+
+		<div1 class="flex-container">
+  <div> <img src="img/ford.jpg"></div>
+  <div><img src="img/dipper.jpg"></div>
+  <div><img src="img/mabel.jpg"></div>  
+ 
+  
+</div1>
+
+<div2 class="flex-container">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>  
+ 
+  
+</div2>
+
+	
+</h3>
+
+
+
+
+
+
+
 	</main>
 
 	<!-- Footer -->
